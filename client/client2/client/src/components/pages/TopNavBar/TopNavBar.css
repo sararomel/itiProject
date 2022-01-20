@@ -1,0 +1,18 @@
+.myhover{
+  cursor: pointer;
+}
+
+.myhover:not(.right) :hover{
+  color: orange;
+  transition: all 0.3s ease-in-out;
+}
+
+.text{
+  font-family: 'Handlee', 'cursive';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.myhover.right > * { 
+  color: #49A760;
+}
